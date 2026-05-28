@@ -1,0 +1,50 @@
+site_name: LR1 — Time Manager API
+site_description: Отчёт по лабораторной работе 1 — Васильев Arthur, k3340
+site_author: Vasilev Arthur
+site_url: https://pppestto.github.io/ITMO_ICT_WebDevelopment_tools_2025-2026/
+repo_url: https://github.com/pppestto/ITMO_ICT_WebDevelopment_tools_2025-2026
+repo_name: ITMO_ICT_WebDevelopment_tools_2025-2026
+
+theme:
+  name: material
+  language: ru
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Тёмная тема
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Светлая тема
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - Главная: index.md
+  - Эндпоинты: endpoints.md
+  - Модели данных: models.md
+  - Подключение к БД: database.md
+  - Практики (GitHub): practices.md
+
+plugins:
+  - search
