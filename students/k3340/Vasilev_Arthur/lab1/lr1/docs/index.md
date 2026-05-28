@@ -1,7 +1,7 @@
 # Отчёт по лабораторной работе 1
 
-**Студент:** Васильев Arthur  
-**Группа:** k3340  
+**Студент:** Васильев Артур  
+**Группа:** K3340  
 **Тема:** Time Manager API — серверное приложение тайм-менеджера  
 **Стек:** FastAPI, SQLModel, PostgreSQL, Alembic, JWT, Docker
 
@@ -55,8 +55,6 @@ flowchart TB
 | Ветка `lab1` | [tree/lab1](https://github.com/pppestto/ITMO_ICT_WebDevelopment_tools_2025-2026/tree/lab1) |
 | Папка LR1 | [students/k3340/Vasilev_Arthur/lab1/lr1](https://github.com/pppestto/ITMO_ICT_WebDevelopment_tools_2025-2026/tree/lab1/students/k3340/Vasilev_Arthur/lab1/lr1) |
 
-!!! note "Перед защитой"
-    Убедитесь, что код закоммичен и запушен в ветку `lab1`, иначе ссылки на GitHub будут недоступны.
 
 ## Разделы отчёта
 
